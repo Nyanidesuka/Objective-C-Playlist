@@ -8,26 +8,38 @@
 
 /* Begin PBXBuildFile section */
 		17F022E4229307D1000C4B6A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 17F022E3229307D1000C4B6A /* AppDelegate.m */; };
-		17F022E7229307D1000C4B6A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 17F022E6229307D1000C4B6A /* ViewController.m */; };
 		17F022EA229307D1000C4B6A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 17F022E8229307D1000C4B6A /* Main.storyboard */; };
 		17F022ED229307D1000C4B6A /* PlaylistObjC.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 17F022EB229307D1000C4B6A /* PlaylistObjC.xcdatamodeld */; };
 		17F022EF229307D2000C4B6A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 17F022EE229307D2000C4B6A /* Assets.xcassets */; };
 		17F022F2229307D2000C4B6A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 17F022F0229307D2000C4B6A /* LaunchScreen.storyboard */; };
 		17F022F5229307D2000C4B6A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 17F022F4229307D2000C4B6A /* main.m */; };
+		17F022FD22930BCF000C4B6A /* HAJSong.m in Sources */ = {isa = PBXBuildFile; fileRef = 17F022FC22930BCF000C4B6A /* HAJSong.m */; };
+		17F0230022930C2E000C4B6A /* HAJPlaylist.m in Sources */ = {isa = PBXBuildFile; fileRef = 17F022FF22930C2E000C4B6A /* HAJPlaylist.m */; };
+		17F02304229316B2000C4B6A /* HAJPlaylistController.m in Sources */ = {isa = PBXBuildFile; fileRef = 17F02303229316B2000C4B6A /* HAJPlaylistController.m */; };
+		17F0230822932259000C4B6A /* HAJPlaylistListTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 17F0230722932259000C4B6A /* HAJPlaylistListTableViewController.m */; };
+		17F0230C22933AA7000C4B6A /* HAJDetailTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 17F0230B22933AA7000C4B6A /* HAJDetailTableViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		17F022DF229307D1000C4B6A /* PlaylistObjC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PlaylistObjC.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		17F022E2229307D1000C4B6A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		17F022E3229307D1000C4B6A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		17F022E5229307D1000C4B6A /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		17F022E6229307D1000C4B6A /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		17F022E9229307D1000C4B6A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		17F022EC229307D1000C4B6A /* PlaylistObjC.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = PlaylistObjC.xcdatamodel; sourceTree = "<group>"; };
 		17F022EE229307D2000C4B6A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		17F022F1229307D2000C4B6A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		17F022F3229307D2000C4B6A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		17F022F4229307D2000C4B6A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		17F022FB22930BCF000C4B6A /* HAJSong.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HAJSong.h; sourceTree = "<group>"; };
+		17F022FC22930BCF000C4B6A /* HAJSong.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HAJSong.m; sourceTree = "<group>"; };
+		17F022FE22930C2E000C4B6A /* HAJPlaylist.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HAJPlaylist.h; sourceTree = "<group>"; };
+		17F022FF22930C2E000C4B6A /* HAJPlaylist.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HAJPlaylist.m; sourceTree = "<group>"; };
+		17F02302229316B2000C4B6A /* HAJPlaylistController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HAJPlaylistController.h; sourceTree = "<group>"; };
+		17F02303229316B2000C4B6A /* HAJPlaylistController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HAJPlaylistController.m; sourceTree = "<group>"; };
+		17F0230622932259000C4B6A /* HAJPlaylistListTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HAJPlaylistListTableViewController.h; sourceTree = "<group>"; };
+		17F0230722932259000C4B6A /* HAJPlaylistListTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HAJPlaylistListTableViewController.m; sourceTree = "<group>"; };
+		17F0230A22933AA7000C4B6A /* HAJDetailTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HAJDetailTableViewController.h; sourceTree = "<group>"; };
+		17F0230B22933AA7000C4B6A /* HAJDetailTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HAJDetailTableViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,9 +73,10 @@
 			isa = PBXGroup;
 			children = (
 				17F022E2229307D1000C4B6A /* AppDelegate.h */,
+				17F0230922932288000C4B6A /* View Controllers */,
+				17F02305229316BA000C4B6A /* Model Controllers */,
+				17F0230122930C37000C4B6A /* Model */,
 				17F022E3229307D1000C4B6A /* AppDelegate.m */,
-				17F022E5229307D1000C4B6A /* ViewController.h */,
-				17F022E6229307D1000C4B6A /* ViewController.m */,
 				17F022E8229307D1000C4B6A /* Main.storyboard */,
 				17F022EE229307D2000C4B6A /* Assets.xcassets */,
 				17F022F0229307D2000C4B6A /* LaunchScreen.storyboard */,
@@ -72,6 +85,37 @@
 				17F022EB229307D1000C4B6A /* PlaylistObjC.xcdatamodeld */,
 			);
 			path = PlaylistObjC;
+			sourceTree = "<group>";
+		};
+		17F0230122930C37000C4B6A /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				17F022FE22930C2E000C4B6A /* HAJPlaylist.h */,
+				17F022FF22930C2E000C4B6A /* HAJPlaylist.m */,
+				17F022FB22930BCF000C4B6A /* HAJSong.h */,
+				17F022FC22930BCF000C4B6A /* HAJSong.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		17F02305229316BA000C4B6A /* Model Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				17F02302229316B2000C4B6A /* HAJPlaylistController.h */,
+				17F02303229316B2000C4B6A /* HAJPlaylistController.m */,
+			);
+			path = "Model Controllers";
+			sourceTree = "<group>";
+		};
+		17F0230922932288000C4B6A /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				17F0230622932259000C4B6A /* HAJPlaylistListTableViewController.h */,
+				17F0230722932259000C4B6A /* HAJPlaylistListTableViewController.m */,
+				17F0230A22933AA7000C4B6A /* HAJDetailTableViewController.h */,
+				17F0230B22933AA7000C4B6A /* HAJDetailTableViewController.m */,
+			);
+			path = "View Controllers";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -100,6 +144,7 @@
 		17F022D7229307D1000C4B6A /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = HAJ;
 				LastUpgradeCheck = 1020;
 				ORGANIZATIONNAME = HaleyJones;
 				TargetAttributes = {
@@ -144,10 +189,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				17F022E7229307D1000C4B6A /* ViewController.m in Sources */,
 				17F022E4229307D1000C4B6A /* AppDelegate.m in Sources */,
+				17F0230022930C2E000C4B6A /* HAJPlaylist.m in Sources */,
 				17F022F5229307D2000C4B6A /* main.m in Sources */,
+				17F022FD22930BCF000C4B6A /* HAJSong.m in Sources */,
 				17F022ED229307D1000C4B6A /* PlaylistObjC.xcdatamodeld in Sources */,
+				17F0230822932259000C4B6A /* HAJPlaylistListTableViewController.m in Sources */,
+				17F0230C22933AA7000C4B6A /* HAJDetailTableViewController.m in Sources */,
+				17F02304229316B2000C4B6A /* HAJPlaylistController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
